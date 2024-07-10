@@ -1,6 +1,3 @@
-/* Cart.css */
-
-/* Basic reset for margin and padding */
 * {
     margin: 0;
     padding: 0;
@@ -25,7 +22,7 @@ h1 {
 
 /* Style for the list of items in the cart */
 .itemsList {
-    margin-top: 9vh;
+    margin-top:9vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -52,6 +49,11 @@ h1 {
     font-size: 1.5rem;
     color: #333;
     margin: 1rem 0;
+}
+
+.itemsList h1 {
+    
+    margin: 1rem 1rem;
 }
 
 /* Style for the clear cart button */
